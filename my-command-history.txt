@@ -1,0 +1,125 @@
+    1  /etc
+    2  /home
+    3  cd /home
+    4  /Desktop
+    5  /zeb
+    6  /ubuntu
+    7  /ubuntuvm
+    8  ~/Desktop
+    9  cd /home/ubuntuvm/Desktop
+   10  cat /etc/fstab
+   11  fstab
+   12  cat /fstab
+   13  sudo apt install tree
+   14  tree /
+   15  tree -L 1 /
+   16  tree -L 2 /
+   17  tree -L 1 /
+   18  pwd
+   19  ls
+   20  /ubuntuvm
+   21  cd /ubuntuvm
+   22  cd
+   23  cd ..
+   24  cd /home
+   25  cd /ubuntuvm/Desktop
+   26  cd /ubuntuvm
+   27  tree -L 1 /
+   28  tree -L 2 /
+   29  cd /ubuntuvm
+   30  ps
+   31  top
+   32  cd /ubuntuvm
+   33  tree -L 2 /
+   34  procfs
+   35  procs
+   36  sudo snap install procs
+   37  sudo /proc/meminfo
+   38  /proc/meminfo
+   39  procfs
+   40  procs
+   41  procs /proc/meminfo
+   42  procs /proc/cpuinfo
+   43  df
+   44  cd ~/Desktop
+   45  ls
+   46  -ls
+   47  ls
+   48  sysfs
+   49  cd /sys
+   50  cd /sysfs
+   51  ls
+   52  cd /fs
+   53  cd fs
+   54  sysfs
+   55  ls
+   56  ll
+   57  .
+   58  ..
+   59  cd ..
+   60  cd..
+   61  cd ..
+   62  cd /home
+   63  cd ~/Desktop
+   64  cd /home
+   65  mkdir CIT173_Lab3
+   66  cd ~/Desktop
+   67  mkdir CIT173_Lab3
+   68  cd /ubuntuvm
+   69  cd ubuntuvm
+   70  cd CIT173_Lab3
+   71  cd ..
+   72  cd /home
+   73  sudo mkdir CIT173_Lab3
+   74  ls
+   75  cd ubuntuvm
+   76  mkdir CIT173_Lab3
+   77  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab3_Files.git
+   78  sudo apt install git
+   79  cd ~/CIT173_Lab3
+   80  sudo tar -xvf ~/CIT173_Lab3_Files/phonebook.tar.gz
+   81  cd ~/
+   82  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab3_Files.git
+   83  cd ~/CIT173_Lab3
+   84  sudo tar -xvf ~/CIT173_Lab3_Files/phonebook.tar.gz
+   85  cat ~/CIT173_Lab3/phonebook1.txt
+   86  sudo ed 757/775/g
+   87  sudo sed ~/CIT173_Lab3/phonebook1.txt 757/775/g
+   88  sudo sed s/757/775/g ~/CIT173_Lab3/phonebook1.txt
+   89  sudo sed s/757/775/ ~/CIT173_Lab3/phonebook1.txt
+   90  sudo sed s/575/775/g ~/CIT173_Lab3/phonebook1.txt
+   91  sudo sed s/575/775/g ~/CIT173_Lab3/phonebook2.txt
+   92  su
+   93  sudo 
+   94  sudo -i
+   95  apt install python3-minimal
+   96  man apt
+   97  apt get python3-minimal
+   98  apt-get python3-minimal
+   99  apt-install python3-minimal
+  100  apt -install python3-minimal
+  101  sudo apt-get update -y
+  102  sudo apt-get install -y python3-minimal
+  103  apt
+  104  apt list
+  105  apt list > my-installed-1.txt
+  106  python3 hello.py
+  107  cd ..
+  108  ls
+  109  cd CIT173_Lab3_Files
+  110  python3 hello.py > ~/CIT173_Lab3/my-python-output.txt
+  111  infinite.py &
+  112  q
+  113  python3 infinite.py &
+  114  man ps
+  115  ps
+  116  ps -a
+  117  ps -a > ~/CIT173_Lab3/my-processes-1.txt.
+  118  kill 6495
+  119  ps -a
+  120  pat
+  121  apt
+  122  apt -a
+  123  apt list
+  124  apt list > ~/CIT173_Lab3/my-installed-2.txt.
+  125  history > ~/CIT173_Lab3/my-command-history.txt

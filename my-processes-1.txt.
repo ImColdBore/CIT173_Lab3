@@ -1,0 +1,5 @@
+    PID TTY          TIME CMD
+   1894 tty2     00:00:23 Xorg
+   1918 tty2     00:00:00 gnome-session-b
+   6495 pts/0    00:00:00 python3
+   6540 pts/0    00:00:00 ps
